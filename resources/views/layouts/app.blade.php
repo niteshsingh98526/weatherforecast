@@ -117,8 +117,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Maps</a>
                         </li>
+                        
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="{{ url('/contact') }}">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/about') }}">About</a>
                         </li>
                     </ul>
                 </div>
@@ -147,7 +151,8 @@
                         <li><a href="{{ url('/') }}">Home</a></li>
                         <li><a href="#">Forecast</a></li>
                         <li><a href="#">Maps</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="{{ url('/about') }}">About</a></li>
+                        <li><a href="{{ url('/contact') }}">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
