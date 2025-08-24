@@ -1,0 +1,49 @@
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+.phpactor.json
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+/.phpunit.cache
+
+# Laravel specific
+/bootstrap/cache/*.php
+/bootstrap/cache/services.php
+
+# SQLite database
+/database/*.sqlite
+/database/*.sqlite-journal
+
+# OS specific files
+.DS_Store
+Thumb.db
+Thumbs.db
+*.log
+
+# Vite & frontend
+/node_modules
+.vite/
+dist/
+
+# Testing
+/coverage
+.phpunit.cache/
+
+# Composer
+composer.phar
